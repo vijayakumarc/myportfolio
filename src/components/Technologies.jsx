@@ -1,6 +1,6 @@
 import { DiPhotoshop } from "react-icons/di"
 import { FaLess, FaSass } from "react-icons/fa"
-import { RiReactjsFill,RiJavascriptLine, RiCss3Line, RiHtml5Line,RiBootstrapLine } from "react-icons/ri"
+import { RiReactjsFill,RiJavascriptLine, RiCss3Line, RiHtml5Line,RiBootstrapLine, RiTailwindCssLine } from "react-icons/ri"
 import { SiAdobexd, SiGit } from "react-icons/si"
 import {animate, motion} from 'framer-motion'
 
@@ -38,18 +38,21 @@ const Technologies = () => {
                 <RiBootstrapLine className="text-7xl text-purple-800"/>                
             </motion.div>            
             <motion.div variants={iconVariation(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
+                <RiTailwindCssLine className="text-7xl text-sky-400"/>                
+            </motion.div>            
+            <motion.div variants={iconVariation(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaSass className="text-7xl text-pink-400"/>                
             </motion.div>            
-            <motion.div variants={iconVariation(2.5)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
+            <motion.div variants={iconVariation(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaLess className="text-7xl text-blue-400"/>                
             </motion.div>            
-            <motion.div variants={iconVariation(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
+            <motion.div variants={iconVariation(2.5)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
                 <DiPhotoshop className="text-7xl text-blue-500"/>                
             </motion.div>            
-            <motion.div variants={iconVariation(2.5)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiAdobexd className="text-7xl text-pink-700"/>                
-            </motion.div>            
             <motion.div variants={iconVariation(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiAdobexd className="text-7xl text-pink-700"/>                
+            </motion.div>                       
+            <motion.div variants={iconVariation(2.5)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiGit className="text-7xl text-orange-600"/>                
             </motion.div>            
         </div>
