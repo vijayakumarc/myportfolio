@@ -1,6 +1,6 @@
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/vk-logo.png";
 import React from "react";
-import {FaLinkedin,FaGithub,FaInstagram,FaTwitter} from  'react-icons/fa'
+import {FaLinkedin,FaGithub,FaInstagram,FaTwitter, FaBehance} from  'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -9,10 +9,9 @@ const Navbar = () => {
         <img className="mx-2 w-20"  src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
-        <FaTwitter/>
+        <a href="https://github.com/vijayakumarc" target="_blank"><FaLinkedin/></a> 
+        <a href="https://www.linkedin.com/in/vijayakumarfed/" target="_blank"><FaGithub/></a>
+        <a href="https://www.behance.net/vijaykumar_c" target="_blank"><FaBehance/></a>        
       </div>
     </nav>
   );
