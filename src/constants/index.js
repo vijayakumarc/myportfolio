@@ -9,32 +9,39 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Front End Developer wi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Dec 2021 - Present",
+    role: "FED - Senior Developer",
+    company: "Epsilon",
+    description: `Developing and maintaining web applications using React,JavaScript, HTML, CSS,Bootstrap,Adobe XD,Figma. Worked CMS platform in Crown peak and AEM, Just support FED related work. I'm Handling Junior team and provided the proper delivery without delay`,
+    technologies: ["React","Javascript", "CSS3", "HTML 5","SASS", "Bootstrap","adobe XD"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jan 2018 - Dec 2021",
+    role: "UI Developer",
+    company: "Aspire Systems",
+    description: `Developing and maintaining web applications using JavaScript, Jquery, Bootstrap, HTML, CSS,Sass,git. Worked closely with Lead and on site Team to prioritize features and enhancements.`,
+    technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript","Sass","less","Gulp"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jan 2017 - Jan 2018",
+    role: "Web Specialist",
+    company: "Rage Communication Pvt Ltd",
+    description: `Developed Webstie using JavaScript, JQuery,HTML,CSS,Bootstrap, SASS, Less. And also work runtime tool in Gulp. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript","Sass","less","Gulp"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Feb 2015 - Jan 2017",
+    role: "UI Developer & UI Designer",
+    company: "Colan Infotech Private Ltd",
+    description: `Developed and maintained Website using JavaScript, JQuery,HTML,CSS,Bootstrap. Designed Webiste and mobile app using Photoshop. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: ["JavaScript", "JQuery", "HTML5", "CSS3","Bootstrap","Photoshop"],
+  },
+  {
+    year: "Jul 2014- Jan 2015",
+    role: "Web Designer",
+    company: "Sangvish Technologies",
+    description: `Contributed to the development of Website using HTML5, CSS3, Bootstrap, Wordpress,jQuery. And also I have designed Website and logo using Photoshop and Illustrator. Worked closely with project managers to prioritize features and enhancements.`,
+    technologies: ["HTML5", "CSS3", "jQuery", "Wordpress","Bootstrap","Photoshop","Illustrator"],
   },
 ];
 
@@ -70,7 +77,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "1153/E, Murugan Illam, Yagapanagar, Madurai-625020",
+  phoneNo: "+91 7708771969",
+  email: "vijay.dce93@gmail.com",
 };
