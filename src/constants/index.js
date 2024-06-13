@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Front End Developer wi
 export const EXPERIENCES = [
   {
     year: "Dec 2021 - Present",
-    role: "FED - Senior Developer",
+    role: "Senior UI Developer",
     company: "Epsilon",
     description: `Developing and maintaining web applications using React,JavaScript, HTML, CSS,Bootstrap,Adobe XD,Figma. Worked CMS platform in Crown peak and AEM, Just support FED related work. I'm Handling Junior team and provided the proper delivery without delay`,
     technologies: ["React","Javascript", "CSS3", "HTML 5","SASS", "Bootstrap","adobe XD"],

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -6,21 +6,31 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
+// import Darkmode from "./components/Darkmode";
 
 const App = () => {
+  const [darkMode,SetDarkMode] = useState(false)
+  const toggleDarkMode = ()=>{(
+      SetDarkMode(!darkMode)
+  )}
   return (
-    <div className="overflow-x-hidden text-neutral-100 antialiased selection:bg-cyan-300 selection:text-cyan-900">
-      <div className="fixed top-0 -z-10 h-full w-full">
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      </div>
-      <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero/>
-        <About/>
-        <Technologies/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
+    <div className={darkMode ? 'dark': null}>
+      <div className="overflow-x-hidden text-neutral-100 antialiased selection:bg-cyan-300 selection:text-cyan-900">      
+        <div className="container mx-auto px-8 text-neutral-700 overflow-x-hidden dark:bg-gray-900 dark:text-neutral-100">
+          <Navbar />
+          <Hero/>
+          <About/>
+          <Technologies/>
+          <Experience/>
+          <Projects/>
+          <Contact/>
+          {/* <Darkmode darkMode={darkMode} toggleDarkMode={toggleDarkMode()}/> */}
+
+          <button onClick={()=>toggleDarkMode()} className='bg-orange-600 w-14 h-14 rounded-full flex justify-center items-center fixed bottom-10 right-10 cursor-pointer'>
+            {darkMode ? <BiSolidSun className='text-2xl'/> : <BiSolidMoon className='text-2xl'/>}            
+        </button>   
+        </div>
       </div>
     </div>
   );
