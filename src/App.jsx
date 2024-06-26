@@ -10,14 +10,14 @@ import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 // import Darkmode from "./components/Darkmode";
 
 const App = () => {
-  const [darkMode,SetDarkMode] = useState(false)
+  const [darkMode,SetDarkMode] = useState(true)
   const toggleDarkMode = ()=>{(
       SetDarkMode(!darkMode)
   )}
   return (
     <div className={darkMode ? 'dark': null}>
-      <div className="overflow-x-hidden text-neutral-100 antialiased selection:bg-cyan-300 selection:text-cyan-900">      
-        <div className="container mx-auto px-8 text-neutral-700 overflow-x-hidden dark:bg-gray-900 dark:text-neutral-100">
+      <div className="overflow-x-hidden text-neutral-100 antialiased selection:bg-cyan-300 selection:text-cyan-900 dark:bg-gray-900">      
+        <div className="container mx-auto px-8 text-neutral-700 overflow-x-hidden  dark:text-neutral-100">
           <Navbar />
           <Hero/>
           <About/>
