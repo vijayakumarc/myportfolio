@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants"
 import profilePic from '../assets/hero-section.png'
 import { motion } from "framer-motion"
+import { BiDownload } from "react-icons/bi"
 
 const container = (delay)=>({
     hidden:{x:-100, opacity:0},
@@ -27,6 +28,10 @@ const Hero = () => {
                     <motion.p variants={container(1.5)} initial='hidden' animate='visible' className="my-2 max-w-xl py-6 font-light tracking-tighter ">
                         {HERO_CONTENT}
                     </motion.p>
+                    <motion.p variants={container(1.5)} initial='hidden' animate='visible' className="max-w-xl tracking-tighter ">
+                        <a className="rounded-md text-xl px-4 py-3 flex gap-2 items-center bg-orange-600" href="../src/assets/vijay_resume.pdf" download><BiDownload/>Download Resume</a>
+                    </motion.p>
+
                 </div>                
             </div>
             <div className="w-ful lg:w-1/2 lg:p-8">
