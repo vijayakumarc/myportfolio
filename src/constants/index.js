@@ -4,6 +4,10 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
+import project9 from "../assets/projects/project-9.jpg";
+import project10 from "../assets/projects/project-10.jpg";
 
 export const HERO_CONTENT = `I am a passionate Front End Developer with a knack for crafting robust and scalable web applications. With 10 years of hands-on experience, I have honed my skills in front-end technologies like React Js, Javascript, CSS,HTML, SASS, LESS, Tailwind,Bootstrap. UI Technolody As Photoshop,AdobeXD, Figma. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -95,6 +99,38 @@ export const PROJECTS = [
       "Todo list with Listner Using Pure Javascript and Web Speech API. Todo List keeps saving, even when we close the tab. Because I have load the data in local storage",
     technologies: ["HTML", "CSS", "Javascript","Web Speech API"],
     link:"https://todo-timer-omega.vercel.app/"
+  },
+  {
+    title: "Criminal Justice Programs Website",
+    image: project7,
+    description:
+      "Its help to you navigate through the myriad career and education paths in order to find the best fit for you.",
+    technologies: ["HTML", "CSS", "Jquery","Wordpress"],
+    link:"https://www.criminaljusticeprograms.com/"
+  },
+  {
+    title: "Education degree Website",
+    image: project8,
+    description:
+      "At EducationDegree.com, our mission is to provide you with everything you need to know in order to make your dream of becoming a teacher a reality.",
+    technologies:  ["HTML", "CSS", "Jquery","Wordpress"],
+    link:"https://www.educationdegree.com/"
+  },
+  {
+    title: "Hornsby Shire Council Website",
+    image: project9,
+    description:
+      "Hornsby Shire covers approximately 510 square kilometers, including 6,000 hectares of public bushland for which Council is responsible.",
+    technologies: ["HTML", "CSS", "Jquery","Wordpress"],
+    link:"https://discoverhornsby.com/"
+  },
+  {
+    title: "MasterParking Website",
+    image: project10,
+    description:
+      "MasterPark is just a great business. It costs LESS to park your car here than at the airport parking. ",
+    technologies: ["HTML", "CSS", "jQuery"],
+    link:"https://www.masterparking.com/"
   },
 ];
 
